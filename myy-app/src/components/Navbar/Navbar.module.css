@@ -3,8 +3,16 @@
 .nav {
   grid-area: n;
   background-color: #bf00bf;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
-.item {
-  color : white;
+.item a{
+   color : white;
+  text-decoration: none;
+ }
+
+.item a.activeLink{
+  color : gold;
 }
