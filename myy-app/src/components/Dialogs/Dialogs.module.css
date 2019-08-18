@@ -1,25 +1,31 @@
 .dialogs {
-     display: grid;
-     grid-template-columns: 2fr 10fr;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-column-gap: 1px;
 
- }
+
+}
 
 
 .dialogsItems {
     padding: 10px;
+    background-color: #464646;
 }
 
 
-.dialogsItems .active {
-    color: mediumpurple;
+.dialogsItems .dialog a {
+    color: white;
+    text-decoration: none;
 }
 
-.dialogsItems .dialog {
-
+.dialogsItems a.activeLink {
+    color: deepskyblue;
 }
 
 .messages {
     padding: 10px;
+    color: black;
+    background-color: #464646;
 }
 
 .messages .message {

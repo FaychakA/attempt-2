@@ -2,9 +2,22 @@
 
 .header {
   grid-area: h;
-  background-color: powderblue;
+  background-color: yellowgreen;
+
+  border: 5px double blue;
 }
 
 .header img {
-  width: 60px;
+  width: 50px;
+}
+
+.logo {
+
+}
+.tittle {
+  display:  inline;
+  font-style: italic;
+  font-weight: 800;
+  font-size: xx-large;
+  text-align: center;
 }
