@@ -31,3 +31,10 @@
 .messages .message {
 
 }
+
+.dialogsItems .dialog img {
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+    padding-top: 10px;
+}
